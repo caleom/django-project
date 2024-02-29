@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+0osru@=w#jei*x*s=y72q-tda3573srt-s(05bpcni(zt)%2='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-caleom-djangoproject-ac5h5zed319.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['8000-caleom-djangoproject-ac5h5zed319.ws-eu108.gitpod.io',
+'.herokuapp.com']
 CSRF_TRUSTED_ORIGINS = ["https://8000-caleom-djangoproject-ac5h5zed319.ws-eu108.gitpod.io/"]
 
 
